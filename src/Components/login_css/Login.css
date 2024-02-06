@@ -1,0 +1,1731 @@
+ /* mainLogin css start */
+ /* for login form background black color */
+ .mainLogin {
+     background-color: rgba(00, 00, 00, .9);
+ }
+
+ .position_real {
+     position: relative;
+ }
+
+ /* loginNavbar css */
+ .logoSize {
+     height: 70px;
+     width: 100px;
+     object-fit: contain;
+ }
+
+ @media screen and (min-width:600px) and (max-width:2300px) {
+     .lang_english {
+         text-align: end;
+     }
+ }
+
+ @media screen and (min-width:300px) and (max-width:599px) {
+     .lang_english {
+         display: none;
+     }
+ }
+
+ /* navbar button of language */
+ @media screen and (min-width:600px) and (max-width:3000px) {
+     .posit_abs {
+         position: absolute;
+         right: 10px;
+         top: 3px;
+     }
+
+     .lang_btn {
+         font-size: 20px !important;
+         background: rgba(00, 00, 00, 0.6) !important;
+     }
+
+     .sign_btn {
+         color: white;
+         background: red;
+         font-size: 20px;
+         padding: 2px 13px 7px 10px;
+         border-radius: 5px;
+         margin-left: 10px;
+         font-weight: 500;
+     }
+ }
+
+ @media screen and (min-width:300px) and (max-width:599px) {
+     .posit_abs {
+         position: absolute;
+         right: 20px;
+         top: 6px;
+     }
+
+     .lang_btn {
+         font-size: 15px !important;
+         background: rgba(00, 00, 00, 0.6) !important;
+     }
+
+     .sign_btn {
+         color: white;
+         background: red;
+         font-size: 18px;
+         padding: 2px 13px 6px 10px;
+         border-radius: 5px;
+         margin-left: 10px;
+         font-weight: 500;
+     }
+ }
+
+ .lang_btn {
+     border: 1px rgb(88, 83, 83) solid !important;
+ }
+
+ .lang_hover:hover {
+     background-color: blue !important;
+     border-radius: 5px !important;
+     color: white !important;
+ }
+
+ .sign_btn:hover {
+     background: rgb(226, 3, 3);
+ }
+
+ .btn_started:hover {
+     background: rgb(194, 9, 9);
+ }
+
+
+ /* after the navbar part  */
+ /* first page of the login */
+
+ @media screen and (min-width:1400px) and (max-width:3000px) {
+     .main_bg_img {
+         background-image: url("../../../public/Images/background/login_bg.jpg") !important;
+         /* background-image: url("../../../public/Images/background/login_bg2.jpg") !important; */
+         background-repeat: no-repeat;
+         background-size: cover;
+         background-color: rgba(00, 00, 00, 1.0) !important;
+         opacity: 0.9;
+     }
+
+     .heading_title {
+         margin-top: 200px;
+         margin-left: 100px;
+         font-size: 3rem;
+         font-weight: bold;
+         font-family: serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+         color: white;
+     }
+
+     .heading_content {
+         font-size: 28px;
+         font-weight: 600;
+         margin-left: 100px;
+         font-family: serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+         color: white;
+     }
+
+     .after_heading_content {
+         font-size: 25px;
+         font-weight: 500;
+         margin-left: 180px;
+         margin-top: 20px;
+         margin-bottom: 15px;
+         font-family: serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+         color: white;
+     }
+
+     .inpt_email {
+         border: 1px solid gray;
+         border-radius: 7px;
+         padding: 10px;
+         color: rgb(145, 138, 138);
+         width: 380px;
+         outline: rgb(80, 76, 76) 1px solid;
+         font-size: 20px;
+         font-weight: 500;
+         background: rgba(00, 00, 00, 0.8);
+         margin-bottom: 250px;
+         margin-left: 350px;
+     }
+
+     .btn_started {
+         font-size: 20px;
+         font-weight: bold;
+         color: white;
+         padding: 10px 20px 10px 20px;
+         background-color: red;
+         border-radius: 7px;
+         margin-bottom: 250px;
+         margin-left: 80px;
+     }
+
+     /* this is for the enjoy the tv section */
+     .title_enjoy {
+         font-size: 50px;
+         color: white;
+         font-weight: bold;
+         font-family: serif, sans-serif;
+         margin-top: 150px;
+     }
+
+     .content_enjoy {
+         font-size: 27px;
+         color: white;
+         font-weight: 300;
+         font-family: serif, sans-serif;
+         margin-top: 10px;
+     }
+ }
+
+ @media screen and (min-width:1200px) and (max-width:1399px) {
+     .main_bg_img {
+         background-image: url("../../../public/Images/background/login_bg.jpg") !important;
+         /* background-image: url("../../../public/Images/background/login_bg2.jpg") !important; */
+         background-repeat: no-repeat;
+         background-size: cover;
+         background-color: rgba(00, 00, 00, 1.0) !important;
+         opacity: 0.9;
+     }
+
+     .heading_title {
+         margin-top: 200px;
+         margin-left: 100px;
+         font-size: 3rem;
+         font-weight: bold;
+         font-family: serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+         color: white;
+     }
+
+     .heading_content {
+         font-size: 28px;
+         font-weight: 600;
+         margin-left: 100px;
+         font-family: serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+         color: white;
+     }
+
+     .after_heading_content {
+         font-size: 25px;
+         font-weight: 500;
+         margin-left: 180px;
+         margin-top: 20px;
+         margin-bottom: 15px;
+         font-family: serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+         color: white;
+     }
+
+     .inpt_email {
+         border: 1px solid gray;
+         border-radius: 7px;
+         padding: 10px;
+         color: rgb(145, 138, 138);
+         width: 380px;
+         outline: rgb(80, 76, 76) 1px solid;
+         font-size: 20px;
+         font-weight: 500;
+         background: rgba(00, 00, 00, 0.8);
+         margin-bottom: 200px;
+         margin-left: 350px;
+     }
+
+     .btn_started {
+         font-size: 20px;
+         font-weight: bold;
+         color: white;
+         padding: 10px 20px 10px 20px;
+         background-color: red;
+         border-radius: 7px;
+         margin-bottom: 200px;
+         margin-left: 160px;
+     }
+
+     /* this is for the enjoy the tv section */
+     .title_enjoy {
+         font-size: 50px;
+         color: white;
+         font-weight: bold;
+         font-family: serif, sans-serif;
+         margin-top: 150px;
+     }
+
+     .content_enjoy {
+         font-size: 27px;
+         color: white;
+         font-weight: 300;
+         font-family: serif, sans-serif;
+         margin-top: 10px;
+     }
+ }
+
+ @media screen and (min-width:1000px) and (max-width:1200px) {
+     .main_bg_img {
+         background-image: url("../../../public/Images/background/login_bg.jpg") !important;
+         /* background-image: url("../../../public/Images/background/login_bg2.jpg") !important; */
+         background-repeat: no-repeat;
+         background-size: cover;
+         background-color: rgba(00, 00, 00, 1.0) !important;
+         opacity: 0.9;
+     }
+
+     .heading_title {
+         margin-top: 200px;
+         margin-left: 100px;
+         font-size: 3rem;
+         font-weight: bold;
+         font-family: serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+         color: white;
+     }
+
+     .heading_content {
+         font-size: 28px;
+         font-weight: 600;
+         margin-left: 100px;
+         font-family: serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+         color: white;
+     }
+
+     .after_heading_content {
+         font-size: 25px;
+         font-weight: 500;
+         margin-left: 180px;
+         margin-top: 20px;
+         margin-bottom: 15px;
+         font-family: serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+         color: white;
+     }
+
+     .inpt_email {
+         border: 1px solid gray;
+         border-radius: 7px;
+         padding: 10px;
+         color: rgb(145, 138, 138);
+         width: 400px;
+         outline: rgb(80, 76, 76) 1px solid;
+         font-size: 20px;
+         font-weight: 500;
+         background: rgba(00, 00, 00, 0.8);
+         margin-bottom: 180px;
+         margin-left: 180px;
+     }
+
+     .btn_started {
+         font-size: 20px;
+         font-weight: bold;
+         color: white;
+         padding: 10px 20px 10px 20px;
+         background-color: red;
+         border-radius: 7px;
+         margin-bottom: 180px;
+         margin-left: 100px;
+     }
+
+     /* this is for the enjoy the tv section */
+     .title_enjoy {
+         font-size: 3rem;
+         color: white;
+         font-weight: bold;
+         font-family: serif, sans-serif;
+         margin-top: 130px;
+     }
+
+     .content_enjoy {
+         font-size: 27px;
+         color: white;
+         font-weight: 300;
+         font-family: serif, sans-serif;
+         margin-top: 10px;
+     }
+ }
+
+ @media screen and (min-width:800px) and (max-width:1000px) {
+     .main_bg_img {
+         background-image: url("../../../public/Images/background/login_bg.jpg") !important;
+         /* background-image: url("../../../public/Images/background/login_bg2.jpg") !important; */
+         background-repeat: no-repeat;
+         background-size: cover;
+         background-color: rgba(00, 00, 00, 1.0) !important;
+         opacity: 0.9;
+     }
+
+     .heading_title {
+         margin-top: 110px;
+         /* margin-left: 05px; */
+         font-size: 35px;
+         font-weight: bold;
+         font-family: serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+         color: white;
+     }
+
+     .heading_content {
+         font-size: 25px;
+         font-weight: 600;
+         margin-left: 80px;
+         font-family: serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+         color: white;
+     }
+
+     .after_heading_content {
+         font-size: 24px;
+         font-weight: 500;
+         margin-left: 80px;
+         margin-top: 18px;
+         margin-bottom: 20px;
+         font-family: serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+         color: white;
+     }
+
+     .inpt_email {
+         border: 1px solid gray;
+         border-radius: 7px;
+         padding: 9px;
+         color: rgb(145, 138, 138);
+         width: 280px;
+         outline: rgb(80, 76, 76) 1px solid;
+         font-size: 19px;
+         font-weight: 500;
+         background: rgba(00, 00, 00, 0.8);
+         margin-bottom: 100px;
+         margin-left: 100px;
+     }
+
+     .btn_started {
+         font-size: 19px;
+         font-weight: bold;
+         color: white;
+         padding: 8px 17px 8px 17px;
+         background-color: red;
+         border-radius: 7px;
+         margin-bottom: 100px;
+         margin-left: 30px;
+     }
+
+     /* this is for the enjoy the tv section */
+     .title_enjoy {
+         font-size: 3rem;
+         color: white;
+         font-weight: bold;
+         font-family: serif, sans-serif;
+         margin-top: 80px;
+         text-align: center;
+     }
+
+     .content_enjoy {
+         font-size: 28px;
+         color: white;
+         font-weight: 400;
+         font-family: serif, sans-serif;
+         margin-top: 10px;
+         text-align: center;
+     }
+ }
+
+ @media screen and (min-width:766px) and (max-width:800px) {
+     .main_bg_img {
+         background-image: url("../../../public/Images/background/login_bg.jpg") !important;
+         /* background-image: url("../../../public/Images/background/login_bg2.jpg") !important; */
+         background-repeat: no-repeat;
+         background-size: cover;
+         background-color: rgba(00, 00, 00, 1.0) !important;
+         opacity: 0.9;
+     }
+
+     .heading_title {
+         margin-top: 100px;
+         /* margin-left: 05px; */
+         font-size: 32px;
+         font-weight: bold;
+         font-family: serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+         color: white;
+     }
+
+     .heading_content {
+         font-size: 23px;
+         font-weight: 600;
+         font-family: serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+         color: white;
+     }
+
+     .after_heading_content {
+         font-size: 23px;
+         font-weight: 500;
+         margin-top: 16px;
+         margin-bottom: 18px;
+         font-family: serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+         color: white;
+     }
+
+     .inpt_email {
+         border: 1px solid gray;
+         border-radius: 7px;
+         padding: 7px;
+         color: rgb(145, 138, 138);
+         width: 230px;
+         outline: rgb(80, 76, 76) 1px solid;
+         font-size: 18px;
+         font-weight: 500;
+         background: rgba(00, 00, 00, 0.8);
+         margin-bottom: 80px;
+         margin-left: 70px;
+     }
+
+     .btn_started {
+         font-size: 18px;
+         font-weight: bold;
+         color: white;
+         padding: 7px 15px 7px 15px;
+         background-color: red;
+         border-radius: 7px;
+         margin-bottom: 80px;
+         /* margin-left: 30px; */
+     }
+
+     /* this is for the enjoy the tv section */
+     .title_enjoy {
+         font-size: 2rem;
+         color: white;
+         font-weight: bold;
+         font-family: serif, sans-serif;
+         margin-top: 60px;
+         text-align: center;
+     }
+
+     .content_enjoy {
+         font-size: 20px;
+         color: white;
+         font-weight: 400;
+         font-family: serif, sans-serif;
+         margin-top: 10px;
+         text-align: center;
+     }
+ }
+
+ @media screen and (min-width:576px) and (max-width:766px) {
+     .main_bg_img {
+         background-image: url("../../../public/Images/background/login_bg.jpg") !important;
+         /* background-image: url("../../../public/Images/background/login_bg2.jpg") !important; */
+         background-repeat: no-repeat;
+         background-size: cover;
+         background-color: rgba(00, 00, 00, 1.0) !important;
+         opacity: 0.9;
+     }
+
+     .heading_title {
+         margin-top: 100px;
+         /* margin-left: 05px; */
+         font-size: 32px;
+         font-weight: bold;
+         font-family: serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+         color: white;
+     }
+
+     .heading_content {
+         font-size: 23px;
+         font-weight: 600;
+         font-family: serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+         color: white;
+     }
+
+     .after_heading_content {
+         font-size: 23px;
+         font-weight: 500;
+         margin-top: 16px;
+         margin-bottom: 18px;
+         font-family: serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+         color: white;
+     }
+
+     .inpt_email {
+         border: 1px solid gray;
+         border-radius: 7px;
+         padding: 7px;
+         color: rgb(145, 138, 138);
+         width: 230px;
+         outline: rgb(80, 76, 76) 1px solid;
+         font-size: 18px;
+         font-weight: 500;
+         background: rgba(00, 00, 00, 0.8);
+         margin-bottom: 80px;
+         margin-left: 70px;
+     }
+
+     .btn_started {
+         font-size: 18px;
+         font-weight: bold;
+         color: white;
+         padding: 7px 15px 7px 15px;
+         background-color: red;
+         border-radius: 7px;
+         margin-bottom: 80px;
+         margin-left: 30px;
+     }
+
+     /* this is for the enjoy the tv section */
+     .title_enjoy {
+         font-size: 2rem;
+         color: white;
+         font-weight: bold;
+         font-family: serif, sans-serif;
+         margin-top: 60px;
+         text-align: center;
+     }
+
+     .content_enjoy {
+         font-size: 20px;
+         color: white;
+         font-weight: 400;
+         font-family: serif, sans-serif;
+         margin-top: 10px;
+         text-align: center;
+     }
+ }
+
+ @media screen and (min-width:400px) and (max-width:576px) {
+     .main_bg_img {
+         background-image: url("../../../public/Images/background/login_bg.jpg") !important;
+         /* background-image: url("../../../public/Images/background/login_bg2.jpg") !important; */
+         background-repeat: no-repeat;
+         background-size: cover;
+         background-color: rgba(00, 00, 00, 1.0) !important;
+         opacity: 0.9;
+     }
+
+     .heading_title {
+         margin-top: 80px;
+         /* margin-left: 05px; */
+         font-size: 30px;
+         font-weight: bold;
+         font-family: serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+         color: white;
+     }
+
+     .heading_content {
+         font-size: 22px;
+         font-weight: 600;
+         margin-left: 50px;
+         font-family: serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+         color: white;
+     }
+
+     .after_heading_content {
+         font-size: 22px;
+         font-weight: 500;
+         margin-left: 30px;
+         margin-top: 16px;
+         margin-bottom: 15px;
+         font-family: serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+         color: white;
+     }
+
+     .inpt_email {
+         border: 1px solid gray;
+         border-radius: 7px;
+         padding: 10px;
+         color: rgb(145, 138, 138);
+         width: 85%;
+         outline: rgb(80, 76, 76) 1px solid;
+         font-size: 20px;
+         font-weight: 500;
+         background: rgba(00, 00, 00, 0.8);
+         margin-bottom: 25px;
+         margin-left: 15px;
+         display: flex;
+         /* justify-content: start; */
+         text-align: left !important;
+         opacity: .8;
+     }
+
+     .btn_started {
+         font-size: 20px;
+         font-weight: bold;
+         color: white;
+         padding: 9px 18px 9px 18px;
+         background-color: red;
+         border-radius: 7px;
+         margin-bottom: 60px;
+         text-align: center !important;
+         margin-left: 23%;
+     }
+
+     /* this is for the enjoy the tv section */
+     .title_enjoy {
+         font-size: 2rem;
+         color: white;
+         font-weight: bold;
+         font-family: serif, sans-serif;
+         margin-top: 50px;
+         text-align: center;
+     }
+
+     .content_enjoy {
+         font-size: 20px;
+         color: white;
+         font-weight: 400;
+         font-family: serif, sans-serif;
+         margin-top: 10px;
+         text-align: center;
+     }
+ }
+
+ @media screen and (min-width:300px) and (max-width:400px) {
+     .main_bg_img {
+         background-image: url("../../../public/Images/background/login_bg.jpg") !important;
+         /* background-image: url("../../../public/Images/background/login_bg2.jpg") !important; */
+         background-repeat: no-repeat;
+         background-size: cover;
+         background-color: rgba(00, 00, 00, 1.0) !important;
+         opacity: 0.9;
+     }
+
+     .heading_title {
+         margin-top: 50px;
+         /* margin-left: 05px; */
+         font-size: 34px;
+         font-weight: bold;
+         font-family: serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+         color: white;
+     }
+
+     .heading_content {
+         font-size: 22px;
+         font-weight: 600;
+         margin-left: 12px;
+         font-family: serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+         color: white;
+     }
+
+     .after_heading_content {
+         font-size: 22px;
+         font-weight: 500;
+         margin-left: 12px;
+         margin-top: 16px;
+         margin-bottom: 15px;
+         font-family: serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+         color: white;
+     }
+
+     .inpt_email {
+         border: 1px solid gray;
+         border-radius: 7px;
+         padding: 10px;
+         color: rgb(145, 138, 138);
+         width: 90%;
+         outline: rgb(80, 76, 76) 1px solid;
+         font-size: 20px;
+         font-weight: 500;
+         background: rgba(00, 00, 00, 0.8);
+         margin-bottom: 25px;
+         margin-left: 10px;
+         display: flex;
+         justify-content: left;
+         text-align: left !important;
+         opacity: .8;
+     }
+
+     .btn_started {
+         font-size: 20px;
+         font-weight: bold;
+         color: white;
+         padding: 9px 18px 9px 18px;
+         background-color: red;
+         border-radius: 7px;
+         margin-bottom: 50px;
+         text-align: center !important;
+         margin-left: 15%;
+     }
+
+     /* this is for the enjoy the tv section */
+     .title_enjoy {
+         font-size: 38px;
+         color: white;
+         font-weight: bold;
+         font-family: serif, sans-serif;
+         margin-top: 50px;
+         text-align: center;
+     }
+
+     .content_enjoy {
+         font-size: 20px;
+         color: white;
+         font-weight: 400;
+         font-family: serif, sans-serif;
+         margin-top: 10px;
+         text-align: center;
+     }
+ }
+
+ /* Second part of the login page  */
+
+ .Posit_realtive {
+     position: relative !important;
+     z-index: 11;
+ }
+
+
+ /* tv part position relative and absulate */
+ .Tv_img {
+     overflow: hidden;
+ }
+
+ .Posit_abul {
+     z-index: -1;
+     overflow: hidden;
+     position: absolute !important;
+     top: 48%;
+     left: 50%;
+     width: 100%;
+     height: 100%;
+     max-width: 73%;
+     max-height: 55%;
+     transform: translate(-50%, -50%);
+ }
+
+ video {
+     object-fit: contain;
+     overflow-clip-margin: content-box;
+     overflow: clip;
+ }
+
+
+ /* this the phone part position parameter */
+ .pos_relat {
+     position: relative;
+ }
+
+ @media screen and (min-width:1400px) and (max-width:3000px) {
+     .posit_absul {
+         position: absolute;
+         top: 75%;
+         left: 25%;
+     }
+
+     .image_box {
+         border: 1px solid gray;
+         border-radius: 10px;
+         height: 100px;
+         width: 330px;
+         padding: 15px;
+         background-color: black;
+         color: blue;
+         margin-top: 10px;
+         box-shadow: 0 0 2em 0 rgb(0, 0, 0);
+     }
+ }
+
+ @media screen and (min-width:1200px) and (max-width:1400px) {
+     .posit_absul {
+         position: absolute;
+         top: 75%;
+         left: 24%;
+     }
+
+     .image_box {
+         border: 1px solid gray;
+         border-radius: 10px;
+         height: 100px;
+         width: 300px;
+         padding: 15px;
+         background-color: black;
+         color: blue;
+         margin-top: 10px;
+         box-shadow: 0 0 2em 0 rgb(0, 0, 0);
+     }
+ }
+
+ @media screen and (min-width:992px) and (max-width:1199px) {
+     .posit_absul {
+         position: absolute;
+         top: 75%;
+         left: 24%;
+     }
+
+     .image_box {
+         border: 1px solid gray;
+         border-radius: 10px;
+         height: 90px;
+         width: 250px;
+         padding: 7px;
+         background-color: black;
+         color: blue;
+         box-shadow: 0 0 2em 0 rgb(0, 0, 0);
+     }
+ }
+
+ @media screen and (min-width:767px) and (max-width:992px) {
+     .posit_absul {
+         position: absolute;
+         top: 75%;
+         left: 22%;
+     }
+
+     .image_box {
+         border: 1px solid gray;
+         border-radius: 10px;
+         height: 90px;
+         width: 350px;
+         padding: 7px;
+         background-color: black;
+         color: blue;
+         box-shadow: 0 0 2em 0 rgb(0, 0, 0);
+     }
+ }
+
+ @media screen and (min-width:576px) and (max-width:767px) {
+     .posit_absul {
+         position: absolute;
+         top: 75%;
+         left: 18%;
+     }
+
+     /* .gif_imag{
+        height: 60px;
+    } */
+
+     .image_box {
+         border: 1px solid gray;
+         border-radius: 10px;
+         height: 90px;
+         width: 350px;
+         padding: 7px;
+         background-color: black;
+         color: blue;
+         box-shadow: 0 0 2em 0 rgb(0, 0, 0);
+     }
+ }
+
+ @media screen and (min-width:500px) and (max-width:576px) {
+     .posit_absul {
+         position: absolute;
+         top: 75%;
+         left: 20%;
+     }
+
+     .gif_imag {
+         height: 60px;
+     }
+
+     .image_box {
+         border: 1px solid gray;
+         border-radius: 10px;
+         height: 70px;
+         width: 300px;
+         padding: 7px;
+         background-color: black;
+         color: blue;
+         box-shadow: 0 0 2em 0 rgb(0, 0, 0);
+     }
+ }
+
+ @media screen and (min-width:420px) and (max-width:500px) {
+     .posit_absul {
+         position: absolute;
+         top: 75%;
+         left: 17%;
+     }
+
+     .gif_imag {
+         height: 60px;
+     }
+
+     .image_box {
+         border: 1px solid gray;
+         border-radius: 10px;
+         height: 70px;
+         width: 280px;
+         padding: 7px;
+         background-color: black;
+         color: blue;
+         box-shadow: 0 0 2em 0 rgb(0, 0, 0);
+     }
+ }
+
+ @media screen and (min-width:370px) and (max-width:420px) {
+     .posit_absul {
+         position: absolute;
+         top: 75%;
+         left: 16%;
+     }
+
+     .gif_imag {
+         height: 60px;
+     }
+
+     .image_box {
+         border: 1px solid gray;
+         border-radius: 10px;
+         height: 70px;
+         width: 250px;
+         padding: 7px;
+         background-color: black;
+         color: blue;
+         box-shadow: 0 0 2em 0 rgb(0, 0, 0);
+     }
+ }
+
+ @media screen and (min-width:300px) and (max-width:370px) {
+     .posit_absul {
+         position: absolute;
+         top: 75%;
+         left: 10%;
+     }
+
+     .gif_imag {
+         height: 50px;
+     }
+
+     .image_box {
+         border: 1px solid gray;
+         border-radius: 10px;
+         height: 60px;
+         width: 240px;
+         padding: 7px;
+         background-color: black;
+         color: blue;
+         box-shadow: 0 0 2em 0 rgb(0, 0, 0);
+     }
+ }
+
+
+ /* watch everywhere section  */
+ .Posit_real {
+     position: relative !important;
+     z-index: 11;
+ }
+
+ .Post_abul {
+     z-index: -1;
+     overflow: hidden;
+     width: 100%;
+     height: 100%;
+     max-width: 63%;
+     max-height: 47%;
+     position: absolute;
+     top: 34%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+ }
+
+
+ /* background of faq part */
+ .background_faq {
+     background-color: black;
+     color: rgb(232, 225, 225);
+ }
+
+
+ /* Accordion part css */
+ @media screen and (min-width:467px) and (max-width:2400px) {
+     .accordion {
+         background-color: rgb(45, 45, 45);
+         color: rgb(255, 255, 255);
+         cursor: pointer;
+         padding: 1.5rem;
+         width: 100%;
+         text-align: left;
+         font-size: 25px;
+         /* transition: 0.4s; */
+         transition-duration: 250ms;
+         transition-property: background-color;
+         transition-timing-function: cubic-bezier(0.9, 0, 0.51, 1);
+         transition: all 0.25s cubic-bezier(0.5, 0, 0.1, 1) 0s;
+
+     }
+ }
+
+ @media screen and (min-width:200px) and (max-width:467px) {
+     .accordion {
+         background-color: rgb(45, 45, 45);
+         color: rgb(255, 255, 255);
+         cursor: pointer;
+         padding: 1.2rem;
+         width: 100%;
+         text-align: left;
+         font-size: 20px;
+         transition: 0.4s;
+         transition-duration: 250ms;
+         transition-property: background-color;
+         transition-timing-function: cubic-bezier(0.9, 0, 0.51, 1);
+     }
+ }
+
+ .active,
+ .accordion:hover {
+     background-color: rgb(65, 65, 65);
+ }
+
+ .panel {
+     padding: 5px 18px;
+     background-color: rgb(65, 65, 65);
+     color: rgb(255, 255, 255);
+     overflow: hidden;
+     display: none;
+     font-size: 20px;
+     margin-bottom: 10px;
+     width: 99.099%;
+ }
+
+
+
+ /* this is the faq section part email and started btn css */
+
+ @media screen and (min-width:1400px) and (max-width:3000px) {
+     .heading_title11 {
+         font-size: 3rem;
+         font-weight: bold;
+         font-family: serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+         color: white;
+         transition-duration: 250ms;
+         transition-property: background-color;
+         transition-timing-function: cubic-bezier(0.9, 0, 0.51, 1);
+     }
+
+     .after_heading_content11 {
+         font-size: 25px;
+         font-weight: 500;
+         margin-left: 180px;
+         margin-top: 20px;
+         margin-bottom: 15px;
+         font-family: serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+         color: white;
+     }
+
+     .inpt_email11 {
+         border: 1px solid gray;
+         border-radius: 7px;
+         padding: 10px;
+         color: rgb(145, 138, 138);
+         width: 380px;
+         outline: rgb(80, 76, 76) 1px solid;
+         font-size: 20px;
+         font-weight: 500;
+         background: rgba(00, 00, 00, 0.8);
+         margin-left: 350px;
+     }
+
+     .btn_started11 {
+         font-size: 20px;
+         font-weight: bold;
+         color: white;
+         padding: 10px 20px 10px 20px;
+         background-color: red;
+         border-radius: 7px;
+         margin-left: 80px;
+     }
+ }
+
+ @media screen and (min-width:1200px) and (max-width:1399px) {
+     .heading_title11 {
+         font-size: 3rem;
+         font-weight: bold;
+         font-family: serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+         color: white;
+     }
+
+     .after_heading_content11 {
+         font-size: 25px;
+         font-weight: 500;
+         margin-left: 180px;
+         margin-top: 20px;
+         margin-bottom: 15px;
+         font-family: serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+         color: white;
+     }
+
+     .inpt_email11 {
+         border: 1px solid gray;
+         border-radius: 7px;
+         padding: 10px;
+         color: rgb(145, 138, 138);
+         width: 380px;
+         outline: rgb(80, 76, 76) 1px solid;
+         font-size: 20px;
+         font-weight: 500;
+         background: rgba(00, 00, 00, 0.8);
+         margin-left: 350px;
+     }
+
+     .btn_started11 {
+         font-size: 20px;
+         font-weight: bold;
+         color: white;
+         padding: 10px 20px 10px 20px;
+         background-color: red;
+         border-radius: 7px;
+         margin-left: 170px;
+     }
+ }
+
+ @media screen and (min-width:1000px) and (max-width:1200px) {
+     .heading_title11 {
+         font-size: 3rem;
+         font-weight: bold;
+         font-family: serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+         color: white;
+     }
+
+     .after_heading_content11 {
+         font-size: 25px;
+         font-weight: 500;
+         margin-left: 180px;
+         margin-top: 20px;
+         margin-bottom: 15px;
+         font-family: serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+         color: white;
+     }
+
+     .inpt_email11 {
+         border: 1px solid gray;
+         border-radius: 7px;
+         padding: 10px;
+         color: rgb(145, 138, 138);
+         width: 400px;
+         outline: rgb(80, 76, 76) 1px solid;
+         font-size: 20px;
+         font-weight: 500;
+         background: rgba(00, 00, 00, 0.8);
+         margin-left: 180px;
+     }
+
+     .btn_started11 {
+         font-size: 20px;
+         font-weight: bold;
+         color: white;
+         padding: 10px 20px 10px 20px;
+         background-color: red;
+         border-radius: 7px;
+         margin-left: 110px;
+     }
+
+ }
+
+ @media screen and (min-width:800px) and (max-width:1000px) {
+     .heading_title11 {
+         font-size: 35px;
+         font-weight: bold;
+         font-family: serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+         color: white;
+     }
+
+     .after_heading_content11 {
+         font-size: 24px;
+         font-weight: 500;
+         margin-left: 80px;
+         margin-top: 18px;
+         margin-bottom: 20px;
+         font-family: serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+         color: white;
+     }
+
+     .inpt_email11 {
+         border: 1px solid gray;
+         border-radius: 7px;
+         padding: 9px;
+         color: rgb(145, 138, 138);
+         width: 280px;
+         outline: rgb(80, 76, 76) 1px solid;
+         font-size: 19px;
+         font-weight: 500;
+         background: rgba(00, 00, 00, 0.8);
+         margin-left: 100px;
+     }
+
+     .btn_started11 {
+         font-size: 19px;
+         font-weight: bold;
+         color: white;
+         padding: 8px 17px 8px 17px;
+         background-color: red;
+         border-radius: 7px;
+         margin-left: 30px;
+     }
+
+ }
+
+ @media screen and (min-width:766px) and (max-width:800px) {
+     .heading_title11 {
+         font-size: 32px;
+         font-weight: bold;
+         font-family: serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+         color: white;
+     }
+
+     .after_heading_content11 {
+         font-size: 23px;
+         font-weight: 500;
+         margin-top: 16px;
+         margin-bottom: 18px;
+         font-family: serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+         color: white;
+     }
+
+     .inpt_email11 {
+         border: 1px solid gray;
+         border-radius: 7px;
+         padding: 7px;
+         color: rgb(145, 138, 138);
+         width: 230px;
+         outline: rgb(80, 76, 76) 1px solid;
+         font-size: 18px;
+         font-weight: 500;
+         background: rgba(00, 00, 00, 0.8);
+         margin-left: 70px;
+     }
+
+     .btn_started11 {
+         font-size: 18px;
+         font-weight: bold;
+         color: white;
+         padding: 7px 15px 7px 15px;
+         background-color: red;
+         border-radius: 7px;
+         /* margin-left: 40px; */
+     }
+ }
+
+ @media screen and (min-width:576px) and (max-width:766px) {
+     .heading_title11 {
+         font-size: 32px;
+         font-weight: bold;
+         font-family: serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+         color: white;
+     }
+
+     .after_heading_content11 {
+         font-size: 23px;
+         font-weight: 500;
+         margin-top: 16px;
+         margin-bottom: 18px;
+         font-family: serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+         color: white;
+     }
+
+     .inpt_email11 {
+         border: 1px solid gray;
+         border-radius: 7px;
+         padding: 7px;
+         color: rgb(145, 138, 138);
+         width: 230px;
+         outline: rgb(80, 76, 76) 1px solid;
+         font-size: 18px;
+         font-weight: 500;
+         background: rgba(00, 00, 00, 0.8);
+         margin-left: 70px;
+     }
+
+     .btn_started11 {
+         font-size: 18px;
+         font-weight: bold;
+         color: white;
+         padding: 7px 15px 7px 15px;
+         background-color: red;
+         border-radius: 7px;
+         margin-left: 40px;
+     }
+
+
+ }
+
+ @media screen and (min-width:400px) and (max-width:575px) {
+     .heading_title11 {
+         font-size: 30px;
+         font-weight: bold;
+         font-family: serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+         color: white;
+     }
+
+     .after_heading_content11 {
+         font-size: 22px;
+         font-weight: 500;
+         margin-left: 30px;
+         margin-top: 16px;
+         margin-bottom: 15px;
+         font-family: serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+         color: white;
+     }
+
+     .inpt_email11 {
+         border: 1px solid gray;
+         border-radius: 7px;
+         padding: 10px;
+         color: rgb(145, 138, 138);
+         width: 85%;
+         outline: rgb(80, 76, 76) 1px solid;
+         font-size: 20px;
+         font-weight: 500;
+         background: rgba(00, 00, 00, 0.8);
+         margin-left: 15px;
+         display: flex;
+         /* justify-content: start; */
+         text-align: left !important;
+         opacity: .8;
+     }
+
+     .btn_started11 {
+         margin-top: 20px;
+         font-size: 20px;
+         font-weight: bold;
+         color: white;
+         padding: 9px 18px 9px 18px;
+         background-color: red;
+         border-radius: 7px;
+         text-align: center !important;
+         margin-left: 20%;
+     }
+ }
+
+ @media screen and (min-width:300px) and (max-width:400px) {
+     .heading_title11 {
+         font-size: 34px;
+         font-weight: bold;
+         font-family: serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+         color: white;
+     }
+
+     .after_heading_content11 {
+         font-size: 22px;
+         font-weight: 500;
+         margin-left: 12px;
+         margin-top: 16px;
+         margin-bottom: 15px;
+         font-family: serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+         color: white;
+     }
+
+     .inpt_email11 {
+         border: 1px solid gray;
+         border-radius: 7px;
+         padding: 10px;
+         color: rgb(145, 138, 138);
+         width: 90%;
+         outline: rgb(80, 76, 76) 1px solid;
+         font-size: 20px;
+         font-weight: 500;
+         background: rgba(00, 00, 00, 0.8);
+         margin-left: 10px;
+         display: flex;
+         justify-content: left;
+         text-align: left !important;
+         opacity: .8;
+     }
+
+     .btn_started11 {
+         margin-top: 18px;
+         font-size: 20px;
+         font-weight: bold;
+         color: white;
+         padding: 9px 18px 9px 18px;
+         background-color: red;
+         border-radius: 7px;
+         text-align: center !important;
+         margin-left: 10%;
+     }
+ }
+
+ /* footer section */
+ .question {
+     color: rgba(255, 255, 255, 0.7);
+     font-size: 16px;
+     cursor: pointer;
+ }
+
+ /* error message */
+ .Error_messag {
+     color: red;
+     font-size: 20px;
+     font-weight: bold;
+     font-family: serif, sans-serif, Georgia, 'Times New Roman', Times, serif;
+ }
+
+ .posit-realt {
+     position: relative;
+ }
+
+ @media screen and (min-width:1400px) and (max-width:2400px) {
+     .posit-absul {
+         position: absolute;
+         top: 23%;
+         left: 27%;
+     }
+ }
+
+ @media screen and (min-width:1200px) and (max-width:1400px) {
+     .posit-absul {
+         position: absolute;
+         top: 23%;
+         left: 33%;
+     }
+ }
+
+ @media screen and (min-width:991px) and (max-width:1200px) {
+     .posit-absul {
+         position: absolute;
+         top: 23%;
+         left: 20%;
+     }
+ }
+
+ @media screen and (min-width:767px) and (max-width:991px) {
+     .posit-absul {
+         position: absolute;
+         top: 34%;
+         left: 19%;
+     }
+ }
+
+ @media screen and (min-width:576px) and (max-width:767px) {
+     .posit-absul {
+         position: absolute;
+         top: 34%;
+         left: 12%;
+     }
+ }
+
+ @media screen and (min-width:300px) and (max-width:576px) {
+     .posit-absul {
+         position: absolute;
+         top: 27%;
+         left: 10%;
+     }
+ }
+
+
+ /* create section  */
+ @media screen and (min-width:576px) and (max-width:2500px) {
+     .sign_btns {
+         color: black;
+         font-weight: bold;
+         text-align: end;
+         font-size: 25px;
+         padding: 5px 10px;
+         margin-right: 50px;
+         margin-top: 10px;
+         border: none;
+         background: whitesmoke;
+         border-radius: 10px;
+         cursor: pointer;
+     }
+ }
+
+ @media screen and (min-width:300px) and (max-width:576px) {
+     .sign_btns {
+         color: black;
+         font-weight: bold;
+         text-align: end;
+         font-size: 22px;
+         padding: 4px 8px;
+         margin-right: 25px;
+         margin-top: 15px;
+         border: none;
+         background: whitesmoke;
+         border-radius: 10px;
+         cursor: pointer;
+     }
+ }
+
+ .sign_btns:hover {
+     color: rgb(75, 75, 75);
+     background-color: #f3f3f3;
+ }
+
+ .top_content_form {
+     font-size: 35px;
+     font-weight: bold;
+     font-family: serif, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     color: black;
+ }
+
+ .second_content_form {
+     font-size: 22px;
+     font-family: serif, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     color: rgb(49, 47, 47);
+ }
+
+ .inp_email {
+     font-size: 18px;
+     color: gray;
+     outline: 1px solid rgb(79, 75, 75);
+     width: 100%;
+     padding: 10px;
+     border-radius: 10px;
+     border: 1px solid gray;
+ }
+
+ .inp_pass {
+     font-size: 18px;
+     color: gray;
+     outline: 1px solid rgb(79, 75, 75);
+     width: 100%;
+     padding: 10px;
+     border-radius: 10px;
+     border: 1px solid gray;
+ }
+
+ .showpasword {
+     position: absolute;
+     top: 25%;
+     right: 5%;
+ }
+
+ .btton_pas {
+     width: 100%;
+     color: white;
+     font-size: 20px;
+     background: rgb(236, 15, 15);
+     font-weight: bold;
+     font-family: serif, sans-serif;
+     text-align: center;
+     border: none;
+     border-radius: 10px;
+     padding: 12px;
+     cursor: pointer;
+ }
+
+ /* footer part in create section */
+ .Create_footer {
+     background-color: #f3f3f3;
+     color: #737373;
+     font-size: 16px;
+     cursor: pointer;
+ }
+
+ .numbr:hover {
+     text-decoration: underline;
+ }
+
+ .create_lag_btn {
+     font-size: 1rem;
+     color: #444040;
+     border: #737373 1px solid;
+     cursor: pointer;
+ }
+
+ .create_lag_btn:hover {
+     font-size: 1rem;
+     color: black;
+     border: #737373 1px solid;
+ }
+
+
+ /* Sign in part  */
+
+ @media screen and (min-width:767px) and (max-width:2500px) {
+     .sign_main_page {
+         background-image: url("../../../public/Images/background/sign_in.jpg") !important;
+         background-repeat: no-repeat;
+         background-size: cover;
+         background-color: rgba(00, 00, 00, 1.0) !important;
+     }
+ }
+
+ @media screen and (min-width:100px) and (max-width:767px) {
+     .sign_main_page {
+         background-color: rgba(00, 00, 00, 1.0) !important;
+     }
+ }
+
+ .transprant_bg {
+     background: rgba(0, 0, 0, .9);
+     color: #737373;
+
+ }
+
+ .sign_heading {
+     font-size: 35px;
+     font-weight: bold;
+     font-family: serif, 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     color: white;
+ }
+
+ .sign_emai_numb {
+     width: 100%;
+     padding: 12px;
+     align-items: center;
+     background: #333;
+     border: none;
+     border-radius: 10px;
+ }
+
+ .sign_passwordd {
+     width: 100%;
+     padding: 12px;
+     align-items: center;
+     background: #333;
+     border: none;
+     border-radius: 10px;
+ }
+
+ .sign_in_button {
+     width: 100%;
+     color: white;
+     font-size: 20px;
+     background: rgb(236, 15, 15);
+     font-weight: bold;
+     font-family: serif, sans-serif;
+     text-align: center;
+     border: none;
+     border-radius: 10px;
+     padding: 12px;
+     cursor: pointer;
+ }
+
+ .checkbox_btn {
+     color: black !important;
+     accent-color: rgb(186, 186, 186);
+     width: 16px;
+     height: 16px;
+ }
+
+ .pos_realt {
+     position: relative;
+ }
+
+ .posabsult {
+     position: absolute;
+     top: 25%;
+ }
+
+ .rember_me {
+     position: absolute;
+     top: 5%;
+     left: 10%;
+     font-size: 16px;
+ }
+
+ .needhelp {
+     color: #737373;
+     text-decoration: none;
+ }
+
+ .needhelp:hover {
+     text-decoration: underline;
+ }
+
+ .sign_up_color {
+     color: white;
+     text-decoration: none;
+ }
+
+ .sign_up_color:hover {
+     color: white;
+     text-decoration: underline;
+ }
+
+ .new_user_kb {
+     font-size: 18px;
+     color: #737373;
+ }
+
+ .Learn_more {
+     color: blue;
+     cursor: pointer;
+     font-size: 13px;
+ }
+
+ .Learn_more:hover {
+     color: blue;
+     cursor: pointer;
+     text-decoration: underline;
+ }
+
+ .recaptutre {
+     font-size: 13px;
+     color: #8c8c8c;
+ }
